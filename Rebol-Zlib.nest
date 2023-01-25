@@ -1,0 +1,13 @@
+;-    .-.                                                                       
+;-   /'v'\   SISKIN-Builder 3.9.0 project file                                  
+;-  (/uOu\)  https://github.com/Siskin-framework/Builder/                       
+;-===="="=======================================================================
+
+github: madler/zlib
+
+eggs: [
+	"Amalgamate Zlib sources" [
+		name: %amalgamate
+		do %amalgamate-zlib.r3
+	]
+]
